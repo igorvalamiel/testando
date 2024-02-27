@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Site do Igor</title>
+</head>
+<body id="body">
+    <div id="mother">
+        <div><h1 id="title">SITE DO IGOR</h1></div>
+        <button id="but" onclick="show()">Clique aqui</button>
+        <div id="hide">
+            <br>
+            <div>Testando</div>
+            .
+            <br>
+            .
+            <br>
+            .
+            <br>
+            
+            <div>PARABÉNS, você acabou de ser hackeado pelo IGOSTOSÃO!</div>
+            <div>Mas não se preocupe, a única coisa que pretendo roubar é o seu coração</div>
+            <img src="coracao.png" id="img">
+        </div>
+    </div>
+    
+</body>
+<script>
+    let item = document.getElementById('hide')
+    let body = document.getElementById('body')
+    let but = document.getElementById('but')
+    
+    function show() {
+        item.style.display = 'block';
+        but.style.backgroundColor = 'black';
+        but.style.color = 'lime';
+        body.style.backgroundColor = 'black';
+        body.style.color = 'lime';
+    }
+</script>
+</html>

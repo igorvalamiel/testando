@@ -1,0 +1,22 @@
+#mother {
+    align-items: center;
+    margin: auto;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#hide {
+    display: none;
+    font-size: 20px;
+}
+
+#but {
+    font-size: 25px;
+}
+
+#img {
+    max-width: 150px;
+    height: auto;
+}
